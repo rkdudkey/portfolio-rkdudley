@@ -1,0 +1,46 @@
+.box-1 {
+    background-color: #eb582c;
+    height: 100vh;  
+}
+
+.nav-name {
+    margin: 30px;
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.nav-name a:hover {
+    text-decoration: none;
+}
+
+.img-profile {
+    width: 333px;
+    height: 447px;
+    border-radius: 20px;
+    border: 3px solid #eb582c;
+    position: relative;
+    left: 50%;
+    z-index: 1;
+       
+}
+
+.box-2 {
+    background-color: #222;
+}
+
+
+/*nav bar */
+
+.nav-main {
+    width: 80%;
+}
+
+.nav-home {
+    border-bottom: 2px solid #eb582c;
+    padding-bottom: 2px;
+}
+
+.nav-contact {
+    background-color: #eb582c;
+    border-radius: 30px;
+}
