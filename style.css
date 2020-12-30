@@ -1,19 +1,6 @@
 
-
 .box-1 {
     background-color: #eb582c;
-    height: 100vh;  
-    border-radius: 30px 0 0 30px;
-}
-
-.nav-name {
-    margin: 30px;
-    font-size: 42px;
-    font-weight: 800;
-}
-
-.nav-name a:hover {
-    text-decoration: none;
 }
 
 .img-profile {
@@ -29,10 +16,7 @@
 
 .box-2 {
     background-color: #222;
-    height: 100vh; 
-    border-radius:  0 30px 30px 0;
 }
-
 
 /*nav bar */
 
@@ -47,7 +31,17 @@
 
 .nav-contact {
     background-color: #eb582c;
-    border-radius: 30px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.nav-name {
+    margin: 30px;
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.nav-name a:hover {
+    text-decoration: none;
 }
 
 /*bio*/
@@ -62,3 +56,15 @@
 .bio-heading {
     color:#eb582c;
 }
+
+/*portfolio*/
+.portfolios-wrapper {
+    width: 90%;
+}
+
+
+.box-latest {
+    padding-top: calc(2 / 3 * 100%);
+    background-size: cover ;
+    background-position: center;
+  }
