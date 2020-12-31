@@ -20,8 +20,8 @@
 
 /*nav bar */
 
-.nav-main {
-    width: 80%;
+.navbar-dark .navbar-toggler {
+    border: none;
 }
 
 .nav-home {
@@ -32,15 +32,17 @@
 .nav-contact {
     background-color: #eb582c;
     border-radius: 20px 20px 20px 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-.nav-name {
+.name {
     margin: 30px;
     font-size: 42px;
     font-weight: 800;
 }
 
-.nav-name a:hover {
+.name a:hover {
     text-decoration: none;
 }
 
@@ -69,4 +71,47 @@
     background-position: center;
   }
 
-  /*about me*/
+  /*medium screen*/
+
+  @media only screen and (max-width: 990px){
+      .img-profile {
+          left:0;
+          z-index: 0;
+      }
+
+      .bio{
+          top:30px;
+          width: 100%;
+          left:0
+      }
+
+      .nav-contact {
+          background-color: #222;
+          padding-left: 0px !important;
+          padding-right: 0px !important;
+
+      }
+
+      .nav-contact-a {
+          font-weight: normal !important;
+          color: white !important;
+      }
+
+      .nav-small {
+        border-bottom: 2px solid #eb582c;
+        padding-bottom: 2px;
+      }
+   
+  }
+
+  @media only screen and (max-width: 766px){
+
+    .box-2 {
+        order: 1;
+    }
+
+    .box-1 {
+        order: 2;
+    }
+
+  }
